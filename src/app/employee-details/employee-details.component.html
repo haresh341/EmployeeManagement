@@ -1,0 +1,18 @@
+<div class="container col-md-3">
+  <h2>Employee Details</h2>
+  <div class="card" style="width: 18rem">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <b>First name : </b>{{ employee.firstName }}
+      </li>
+
+      <li class="list-group-item">
+        <b>Last name : </b>{{ employee.lastName }}
+      </li>
+
+      <li class="list-group-item"><b>Email id : </b>{{ employee.emailId }}</li>
+    </ul>
+  </div>
+
+  <button class="btn btn-outline-light" (click)="onSubmit()">Go back</button>
+</div>
