@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  text-align: center;
+  color: white;
+  background-color: #ff0000;
+  padding-top: 20px;
+}
+body {
+  background-color: #3d0000;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+h2 {
+  margin: 20px;
+  color: white;
+}
